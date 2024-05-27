@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""""Module to start a Flask web application"""
+""""script that starts a Flask web application"""
 
 from flask import Flask
 
@@ -20,8 +20,7 @@ def hbnb():
 
 @app.route('/c/<text>', strict_slashes=False)
 def c_is_fun(text):
-    """Function to return a string
-    """
+    """Function to return a string"""
     return "C {}".format(text.replace("_", " "))
 
 
