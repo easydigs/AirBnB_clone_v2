@@ -3,6 +3,8 @@
 initialize the models package
 """
 
+from models.engine.db_storage import DBStorage
+from models.engine.file_storage import FileStorage
 from os import getenv
 
 
